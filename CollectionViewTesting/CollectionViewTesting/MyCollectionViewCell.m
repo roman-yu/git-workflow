@@ -10,4 +10,8 @@
 
 @implementation MyCollectionViewCell
 
+//- (instancetype)initWithFrame:(CGRect)aRect {
+//    return [self initWithFrame:aRect];
+//}
+
 @end
