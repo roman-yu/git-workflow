@@ -29,6 +29,8 @@ static NSString * const reuseIdentifier = @"MyCell";
     
     UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout *)self.collectionView.collectionViewLayout;
     layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
+    
+    layout.minimumLineSpacing = 20;
 }
 
 - (void)didReceiveMemoryWarning {
