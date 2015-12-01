@@ -10,5 +10,6 @@
 
 @interface MyCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *myImageView;
 @end

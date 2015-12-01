@@ -65,6 +65,7 @@ static NSString * const reuseIdentifier = @"MyCell";
     MyCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
     // Configure the cell
+    [cell.myLabel setText:[NSString stringWithFormat:@"%@th", @(indexPath.row + 1)]];
     [cell.myImageView setImage:[UIImage imageNamed:@"geek"]];
     
     return cell;
