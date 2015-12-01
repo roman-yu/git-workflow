@@ -26,6 +26,9 @@ static NSString * const reuseIdentifier = @"MyCell";
 //    [self.collectionView registerClass:[MyCollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
+    
+    UICollectionViewFlowLayout *layout = self.collectionView.collectionViewLayout;
+    layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
 }
 
 - (void)didReceiveMemoryWarning {
